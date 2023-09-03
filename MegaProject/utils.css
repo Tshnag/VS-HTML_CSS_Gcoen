@@ -24,13 +24,15 @@ html {
     height:500px;
     margin: 20px 0px;
 }
-
 .nav-hover{
-    padding: 0;
+    padding: 2px;
 }
 .nav-items a :hover{
     text-decoration: none;
-    background-color: beige;
+}
+.nav-items li :hover{
+    background-color: rgb(239, 176, 176);
+    text-decoration: none;
 }
 
 
