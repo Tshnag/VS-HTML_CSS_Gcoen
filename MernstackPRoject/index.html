@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tushar's Website</title>
+</head>
+<body>
+    <div id="container">
+        <h1>Your shopping List:-</h1>
+    </div>
+    <div>
+        <ul id="list" class="shoplist">
+            <li>rice</li>
+            <li>doodh</li>
+            <li>vasline</li>
+            <li>ezee</li>
+            <li>azithromycin tablet</li>
+        </ul>
+    </div>
+
+
+    <script>
+        let mylist=document.getElementById('list');
+        console.log(mylist,"Original list");
+        let listClass=document.getElementsByClassName('shoplist');
+        console.log(listClass);
+        listClass[0].innerHTML = "<li>Hello I am Epmty!!</li>";
+        console.log(mylist);
+        // let listElement="<li>Wheat</li>"
+        // mylist.innerHTML=listElement;
+        // console.log("successful");
+    </script>
+</body>
+</html>

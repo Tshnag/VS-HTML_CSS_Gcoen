@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Practice1</title>
+    <Script src="https://unpkg.com/react@18/umd/react.development.js" ></Script>
+    <Script src="https://unpkg.com/react-dom@18/umd/react-dom.development.js" ></Script>
+    <script src="https://unpkg.com/@babel/standalone@7/babel.min.js"></script>
+
+    <style>
+        
+    </style>
+</head>
+<body>
+    <div id="container">
+        
+    </div>
+
+
+
+    
+    <script type="text/babel">
+        // const element = React.createElement('div', { title: 'Outer div' },
+        //   React.createElement('h1', null, 'Hello World!')
+
+        const element = (
+          <div title="Outer div">
+            <h1>Hello World!!!!</h1>
+          </div>
+        );
+    
+        ReactDOM.render(element, document.getElementById('container'));
+    </script>
+</body>
+</html>

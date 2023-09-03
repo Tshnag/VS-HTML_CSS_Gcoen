@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Bio-Data</title>
+    <link rel="stylesheet" href="biodata_css/">
+    <style>
+        *{
+            background-color: rgb(197, 241, 241);
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            
+        }
+        .head{
+            background-color: rgb(12,55,96);
+            margin-left: 13%;
+            margin-right: 13%;
+            height:250px;
+            
+        }
+        .container{
+            background-color:rgb(12,55,96);      
+            display: inline-block;
+            position: absolute;
+            left: 47%;
+            top: 10%;
+            width: 429px;
+            height: 139px;
+            text-align: center;
+            font-size: 57px;
+            font-weight: bold;
+            color: white;
+        }
+        .btn{
+            text-decoration: none;
+            border-radius: 12px;
+            font-size: 28px;
+            padding: 0;
+            background-color: rgb(247, 247, 247);
+            color: black;
+        }
+        .btn :hover{
+            background-color: rgb(146, 230, 245);
+            text-decoration: none;
+        }
+        .image{           
+            display: inline-block;   
+            width: 200px;
+            height: 200px; 
+            position: relative;
+            left: 10%;
+            top: 10%;
+            border: 5px solid white;
+        }
+        .image img{
+            background-position: center;
+        }
+        .about{
+            background-color: rgb(254,241,224);
+            display: inline-block;
+            position: absolute;
+            left: 313px;                    
+        }
+        #me{
+            background-color: rgb(254,241,224);
+            width: 500px;
+            position: absolute;
+            top: 313px;
+            left: 265px;
+            font-size: 21px;
+        }
+        .info{
+            background-color: rgb(254,241,224);
+            display: inline-block;
+            position: absolute;
+            right: 270px;
+            width: 372px;
+            top: 280px;
+            font-size: 20px;
+        }
+        .skills{
+            background-color: rgb(254,241,224);
+            display: inline-block;
+            position: relative;
+            top: 158px;
+            left: 105px;
+        }
+        #infoblock{
+            background-color: rgb(254,241,224);
+            margin: auto;
+            height: 750px;
+            width: 1115px;
+        }
+        #list{
+            background-color: rgb(254,241,224);
+            
+            display: inline-block;
+            position: relative;
+            top: 295px;
+            right: 75px;
+            font-size: 18px;
+        }
+        .el{
+            background-color: rgb(254,241,224);
+        }
+    </style>
+</head>
+<body>
+    <header class="head">
+        <div class="image">
+            <img src="biodata_css/t2.jpeg" alt="" width="200px" height="200px">
+            
+        </div>
+        <div class="container">
+            Tushar Nagrare
+            <button class="btn"><a href="#" class="btn">Download Bio-Data</a></button>
+        </div>
+    </header>
+    <div id="infoblock">
+        <h1 class="about">About Me</h1>
+        <p id="me">Hello! I am Tushar Nagrare. I am a  B.tech. student in Government College of Engineering Nagpur at Computer Science department 2<sup style="background-color: rgb(254 241 224)">nd</sup> Year. I have learned programming languages such as C/C++, Java, and as well as web development(HTML,CSS,Java-Script).I have created this web page of bio-data of mine by myself.</p>
+        <p class="info">
+            Age:-&nbsp;20<br><br>
+            Email ID:- &nbsp;nagraretushar38@gmail.com<br><br>
+            Phone No.&nbsp;:-&nbsp;9370964195<br><br>
+            Address:-&nbsp;Prathmesh Vihar, Ashok Chowk,Medical Sq,Nagpur<br>
+        </p>
+        <h2 class="skills">
+            Professional Skills
+        </h2>
+        
+            <ul id="list" type="square">
+                <li class="el">C lang</li>
+                <li class="el">C++ lang</li>
+                <li class="el">Java & OOP</li>
+                <li class="el">HTML</li>
+                <li class="el">CSS</li>
+                <li class="el">Java-Script</li>
+            </ul>
+        
+    </div>
+</body>
+</html>

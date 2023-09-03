@@ -1,0 +1,131 @@
+<DOCTYPE! html>
+<html>
+    <head>
+        <title>My-Website</title>
+        <meta charset="UTF-8" >
+        <meta name="viewport" content="width=device-width, initial-scale=1.0,">
+
+        <style>
+            body{
+                margin: 0;
+                padding: 0;
+                
+            }
+            header{
+                background-color: #fff;
+                position: fixed;
+            }
+        .navbar{
+            display: flex;
+            margin-left: 127px;
+            
+        }
+            .nav{
+                display: flex;
+                margin-top: 10px;
+                font-size: 22px;
+                text-decoration: none;
+            }
+            li{
+                padding-left: 10px;
+                padding-right: 25px;
+                text-decoration: none;
+                list-style-type: none;
+                font-weight: bold;
+                
+            }
+            .img{
+                height: 60px;
+                margin: 3px;
+            }
+            .profile{
+                display: flex;
+                margin-left: auto;
+                font-size: 18px;
+                margin-top: 13px;
+                margin-right: 56px;
+                text-decoration: none;
+            }
+            li a{
+                text-decoration: none;
+                color: rgb(0, 0, 0);
+            }
+            
+            li a:hover{
+                color: rgb(127, 151, 82);
+                
+            }
+            .bgimg{
+                position: absolute;
+                z-index: -1;
+                width: 101%;
+                margin: 0px;
+                padding: 0%;
+                opacity: 0.93;
+            }
+            .container{
+                display: flex;
+                position: relative;
+                z-index: 1;
+                top: 20%;
+                left: 1%;
+                color: #fff;
+                flex-direction: column;
+                font-weight:bolder;
+            }
+            .btn{
+                background-color: rgb(122, 148, 95);
+                width: 10%;
+                height: 40px;
+                position: absolute;
+                top: 66px;
+                left: 77px;
+                font-size: 20px;
+                border-radius: 10px;
+                cursor: pointer;
+            }
+            .btn a{
+                color: #fff;
+                text-decoration: none;
+            }
+            .btn:hover{
+                background-color: rgb(73, 110, 38);
+                
+            }
+        </style>
+    </head>
+
+    <body>
+        <div class="bgimg">
+            <img src="https://media-cldnry.s-nbcnews.com/image/upload/t_nbcnews-fp-1200-630,f_auto,q_auto:best/newscms/2019_33/2203981/171026-better-coffee-boost-se-329p.jpg" alt="" class="bgimg">
+        </div>
+        <header>
+            <div class="navbar">
+                <div class="img">
+                    <a href="#">
+                        <img src="https://is4-ssl.mzstatic.com/image/thumb/Purple128/v4/4f/76/b7/4f76b75b-a484-0211-96fd-10e3f1f651f6/source/512x512bb.jpg" alt="" class="img">
+                    </a>
+                </div>
+                <ul class="nav">
+                    <li> <a href="#">Cafe Finder</a></li>
+                    <li> <a href="#">Shop</a></li>
+                    <li><a href="#">Subscriptions</a></li>
+                    <li><a href="#">News</a></li>
+                    <li><a href="#">Wholesale</a></li>
+                    <li><a href="#">About-Us</a></li>
+                </ul>
+                <ul class="profile">
+                    <li><a href="#">Search</a> <input type="text"></li>
+                    <li><a href="#">My-Account</a></li>
+                    <li><a href="#">Cart</a></li>
+                </ul>
+            </div>
+        </header>
+        <div class="container">
+            <h2>CELEBRATE CHRISTMAS AT HOME WITH CAMPOS</h2>
+            <button class="btn">
+                <a href="#">Shop Now</a>
+            </button>
+
+        </div>
+    </body>

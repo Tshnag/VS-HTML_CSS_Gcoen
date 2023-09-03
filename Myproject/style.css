@@ -1,0 +1,220 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+header{
+    position: sticky;
+    top: 0px;
+    z-index: 1;
+}
+.navbar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(255, 255, 255);
+}
+#logo{
+    padding: 12px;
+}
+#nav{
+    display: flex;
+    list-style-type: none;
+    margin: 0px;
+}
+#nav li{
+    padding: 32px 26px;
+    font-size: 20px;
+    cursor: pointer;
+}
+#nav a{
+    text-decoration: none;
+}
+
+#signup{
+    list-style-type: none;
+    margin: 0px;
+}
+#signup li{
+    font-size: 20px;
+    padding: 32px 26px;
+}
+#signup a{
+    text-decoration: none;
+}
+.navbar a{
+    color: black;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.navbar a:hover{
+    font-weight: bold;
+    color: green;
+    font-size: 22px;
+    transition: all 0.3s ease-in-out;
+    
+}
+
+/* home section */
+.home{
+    background: url('https://images.pexels.com/photos/913215/pexels-photo-913215.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940') no-repeat center center/cover;
+    content: "";
+    position: relative;
+    height: 100%;
+    width: 100%;
+    opacity: 0.88;
+}
+
+#homeheading{
+    display: flex;
+    justify-content: center;
+    margin: 0px;
+    padding: 1rem 25rem;
+    text-align: center;
+    font-size: 4rem;
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+}
+
+#qoute{
+    color: rgb(0, 0, 0);
+    font-weight: bolder;
+    display: flex;
+    justify-content: center;
+    margin: 0px;
+    font-size: 1.8rem;
+    text-align: center;
+    padding: 0rem 24rem;
+    margin-top: 1.2rem;
+    margin-bottom: 1rem;
+}
+
+form{
+    display: flex;
+    justify-content: center;
+    opacity: 1;
+    margin-top: 3rem;
+    padding: 2rem;
+}
+#zip{
+    border-radius: 3px;
+    text-align: center;
+    font-size: 1.3rem;
+    padding: 1rem 1rem;
+    height: 2rem;
+    margin-right: 2rem;
+    background-color: rgb(250, 237, 220);
+    font-weight: bold;
+}
+#btn{
+    width: 12rem;
+    cursor: pointer;
+    background-color: bisque;
+    font-size: 1rem;
+    font-weight: bold;
+    color: black;
+}
+
+/* services section  */
+#servicesheading{
+    text-align: center;
+    font-size: 2rem;
+    text-decoration: underline;
+    margin: 0px;
+    padding-top: 2rem;
+    padding-bottom: 1rem;
+}
+
+.home-services{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 2rem;
+    
+}
+
+#servicescontainer{
+    background-color: rgb(213, 231, 248);
+}
+.services{
+    /* border: 2px solid black; */
+    margin: 1rem;
+    background-color: rgb(254, 255, 247);
+    margin: 4rem;
+}
+.services img{
+    display: block;
+    margin: auto;
+}
+.btn{
+    display: block;
+    margin: 1.5rem auto;
+    height: 2rem;
+    width: 50%;
+    background-color: rgb(60, 218, 81);
+    color: black;
+    font-size: 1rem;
+    cursor: pointer;
+}
+.btn:hover{
+    background-color: rgb(30, 146, 19);
+}
+
+/* Section areas */
+
+.areacontainer{
+    display: flex;
+    justify-content: center;
+    padding-bottom: 3rem;
+}
+.areas{
+    margin: 0rem 2rem;
+    font-size: 1.3rem;
+    color: azure;
+    font-weight: bold;
+    /* font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; */
+}
+.service-areas{
+    background-color: green;
+}
+.areastyle{
+    text-align: center;
+    font-size: 1.6rem;
+    margin-top: 0px;
+    padding-top: 2rem;
+    color: azure;
+    /* font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; */
+}
+
+
+/* our mission section  */
+.mission{
+    background: url('https://images.pexels.com/photos/2757549/pexels-photo-2757549.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940') no-repeat center center/cover;
+    position: relative;
+    width: 100%;
+    height: 70%;
+    opacity: 0.87;
+}
+.mstyle1{
+    text-align: center;
+    color: white;
+    font-weight: bold;
+    padding: 2rem;
+    font-size: 2rem;
+    margin-top: 0px;
+}
+.mstyle2{
+    text-align: center;
+    color: white;
+    padding-bottom: 3rem;
+    margin: 0rem 19rem;
+    font-weight: bold;
+    font-size: 1.5rem;
+}
+
+
+
+/* utility classes */
+.tcenter{
+    text-align: center;
+    margin-top: 0px;
+}

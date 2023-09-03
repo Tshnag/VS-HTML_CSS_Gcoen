@@ -1,0 +1,36 @@
+html {
+    font-family: 'REM', sans-serif;
+    font-family: 'Work Sans', sans-serif; 
+}
+
+.flex {
+    display: flex;
+}
+
+.text-black {
+    color: black;
+}
+
+.border{
+    border: 2px solid black;
+}
+
+.text-center{
+    text-align: center;
+}
+
+.align-videos{
+    width: 100%;
+    height:500px;
+    margin: 20px 0px;
+}
+
+.nav-hover{
+    padding: 0;
+}
+.nav-items a :hover{
+    text-decoration: none;
+    background-color: beige;
+}
+
+

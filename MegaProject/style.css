@@ -1,0 +1,48 @@
+header{
+    position: sticky;
+    top: 0;
+}
+
+.nav-container{
+    background-color: #f3e9f1;
+    margin-bottom: 40px;
+}
+.nav-items{
+    list-style: none;
+    margin-left: 30%;
+    margin-top: 2%;
+    margin-right: 15%;
+
+}
+.nav-items li{
+    padding: 0px 20px;
+    font-weight: bold;
+}
+
+.logo{
+    width: 145px;
+    height: 75px;
+    margin: auto;
+}
+
+.section{
+    flex-direction: row;
+}
+
+.main-section{
+    padding: 40px;
+}
+
+.article-section{
+    margin-right: 20px;
+    padding: 60px;
+    border-left: 5px;
+}
+
+#main-sec-img{
+    width: 500px;;
+    height:fit-content;
+    margin: 23px 0px;
+}
+
+

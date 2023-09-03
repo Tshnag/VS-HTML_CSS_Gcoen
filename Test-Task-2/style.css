@@ -1,0 +1,37 @@
+/* https://t.me/ybif_ybifoundation */
+body{
+    margin: 0;
+    padding: 0;
+}
+.logo-image{
+    display: block;
+    margin: auto;
+    margin-top: 15px;
+    margin-bottom: 20px;
+    margin-left: 40rem;
+    height: 1.8rem;
+    width: 6rem;
+}
+.parent-container{
+    display: block;
+    margin: 0rem 25rem;
+    margin-left: 30rem;
+}
+.warning-container{
+    border: 4px solid rgb(223, 145, 27);
+    border-radius: 6px;
+    display: block;
+    margin-right: 12rem;
+}
+.warning-container-heading{
+    margin-top: 10px;
+    margin-bottom: 3px;
+}
+.warning-container-notice{
+    margin: 12px 10px;
+}
+.form-details{
+    display: flex;
+    flex-direction: column;
+    margin-right: 12rem;
+}
