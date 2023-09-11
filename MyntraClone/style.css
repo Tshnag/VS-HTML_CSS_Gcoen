@@ -1,0 +1,39 @@
+html, body{
+    margin: 0;
+    padding: 0;
+}
+header{
+    position: sticky;
+    top: 0;
+    background-color: #fff;
+    font-size: 14px;
+    height: 12vh;
+}
+
+.left img{
+    width: 53px;
+    height: 55px;
+}
+nav ul li{
+    list-style-type: none;
+    padding: 0 12px;
+}
+.container{
+    padding: 2vh 10vw;
+
+}
+
+.section-1{
+    background-color: #edecec;
+    height: 222vh;
+}
+
+.input{
+    width: 24vw;
+    padding: 8px 28px;
+    background-color: #f5f5f6;
+    border: none;
+}
+.input:active{
+    border: 1px solid green;
+}

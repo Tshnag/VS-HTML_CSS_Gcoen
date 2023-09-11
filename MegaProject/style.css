@@ -9,10 +9,8 @@ header{
 }
 .nav-items{
     list-style: none;
-    margin-left: 30%;
     margin-top: 2%;
-    margin-right: 15%;
-
+    margin-right: 10%;
 }
 .nav-items li{
     padding: 0px 20px;
@@ -22,7 +20,7 @@ header{
 .logo{
     width: 145px;
     height: 75px;
-    margin: auto;
+    margin-left: 10%;
 }
 
 .section{
